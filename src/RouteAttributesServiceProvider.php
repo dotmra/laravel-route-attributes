@@ -2,9 +2,9 @@
 
 namespace Dotmra\RouteAttributes;
 
+use Dotmra\RouteAttributes\Commands\RouteAttributesCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Dotmra\RouteAttributes\Commands\RouteAttributesCommand;
 
 class RouteAttributesServiceProvider extends PackageServiceProvider
 {

@@ -2,9 +2,9 @@
 
 namespace Dotmra\RouteAttributes\Tests;
 
+use Dotmra\RouteAttributes\RouteAttributesServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Dotmra\RouteAttributes\RouteAttributesServiceProvider;
 
 class TestCase extends Orchestra
 {
